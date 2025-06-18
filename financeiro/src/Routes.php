@@ -61,6 +61,8 @@ class Routes extends Bootstrap {
         $routes[] = array('route' => '/proprietarios', 'controller' => 'ProprietariosController', 'action' => 'proprietarios');
         $routes[] = array('route' => '/cad_proprietarios', 'controller' => 'ProprietariosController', 'action' => 'cadastrarProprietarios');
 
+        $routes[] = array('route' => '/familia', 'controller' => 'FamiliaController', 'action' => 'index');
+
 		$this->setRoutes($routes);
 	}
 }

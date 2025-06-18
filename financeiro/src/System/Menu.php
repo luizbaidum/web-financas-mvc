@@ -16,7 +16,7 @@ class Menu {
     }
 
     public array $grupos = [
-        'Cadastros', 'Consultas', 'Preferencias'
+        'Cadastros', 'Consultas', 'Config.'
     ];
 
     public array $titles = [
@@ -26,8 +26,8 @@ class Menu {
         'Consultas' => [
             'Indicadores', 'Lista Contas Invest', 'Extrato Contas Invest', 'Orçamento', 'Evolução Rendimentos'
         ],
-        'Preferencias' => [
-            'Preferencias'
+        'Config.' => [
+            'Familia', 'Preferencias'
         ]
     ];
 
@@ -38,15 +38,15 @@ class Menu {
         'Consultas' => [
             'indicadores_index', 'contas_investimentos_index', 'extrato_investimentos', 'orcamento_index', 'evolucao_rendimentos'
         ],
-        'Preferencias' => [
-            'preferencias'
+        'Config.' => [
+            'familia', 'preferencias'
         ]
     ];
 
     public array $niveis = [
-        'Cadastros'    => [],
-        'Consultas'    => [],
-        'Preferencias' => []
+        'Cadastros' => [],
+        'Consultas' => [],
+        'Config.'   => []
     ];
 }
 ?>
